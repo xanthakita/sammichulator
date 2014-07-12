@@ -35,7 +35,7 @@ Session::put('open', 'true');
           <a class="navbar-brand" href="/">the sammichulator</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <!-- <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span></a>
               <ul class="dropdown-menu dropdown-menu-form">
@@ -56,7 +56,7 @@ Session::put('open', 'true');
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul> -->
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -84,19 +84,19 @@ Session::put('open', 'true');
             e.stopPropagation();
           }
         });
-        $('#btnSammichulate').click(function(){
-          if($('#cbMale').prop('checked') && $('#cbFemale').prop('checked')){
-            // window.gender = 'b';
-            $('#div_session_write').load('../session_write.php?gender=b');
-          } else if ($('#cbMale').prop('checked')){
-            // window.gender = 'm';
-            $('#div_session_write').load('../session_write.php?gender=m');
-          } else {
-            // window.gender = 'f';
-            $('#div_session_write').load('../session_write.php?gender=f');
-          }
-          // alert();
-        });
+        // $('#btnSammichulate').click(function(){
+        //   if($('#cbMale').prop('checked') && $('#cbFemale').prop('checked')){
+        //     // window.gender = 'b';
+        //     $('#div_session_write').load('../session_write.php?gender=b');
+        //   } else if ($('#cbMale').prop('checked')){
+        //     // window.gender = 'm';
+        //     $('#div_session_write').load('../session_write.php?gender=m');
+        //   } else {
+        //     // window.gender = 'f';
+        //     $('#div_session_write').load('../session_write.php?gender=f');
+        //   }
+        //   // alert();
+        // });
       });
       </script>
   </body>

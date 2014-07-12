@@ -29,15 +29,6 @@
 @stop
 
 @section('content')
-<p>
-  <?php if (Session::get('gender')){
-    echo "OK";
-  } else {
-    echo "NOT OK";
-  }
-
-  ?>
-</p>
   <h2>Sammichulate your life.</h2>
   <h5></h5>
 
